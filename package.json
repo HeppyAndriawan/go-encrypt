@@ -1,0 +1,23 @@
+{
+  "name": "go-encrypt",
+  "version": "1.0.0",
+  "description": "A simple encryption package using AES-GCM and the Web Crypto API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "encryption",
+    "AES-GCM",
+    "crypto",
+    "Web Crypto API"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}

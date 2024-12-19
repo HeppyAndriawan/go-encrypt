@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",         // Ensure it targets modern JavaScript (ES2020 for Web Crypto API support)
+    "module": "CommonJS",       // For Node.js compatibility
+    "declaration": true,        // Generate type declaration files
+    "outDir": "./dist",         // Output compiled JS files in `dist`
+    "strict": true,             // Enable strict type checking
+    "esModuleInterop": true,    // Enable interoperability with CommonJS
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],      // Include all TS files in `src`
+  "exclude": ["node_modules"]   // Exclude dependencies
+}
